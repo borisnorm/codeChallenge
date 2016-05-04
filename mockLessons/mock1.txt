@@ -1,0 +1,13 @@
+1. Always think through the loop ordering
+2. Good code style when making an and or statement is to comment that out 
+on the next line 
+3. Ask and check assumptions, I solved the wrong problem, or I did not think clearly
+4. it is far more natural to check each object first, then run the second parameter one by
+onA
+
+//Syntax Things
+1. Make sure you are referring to the correct thing in the forloop
+2. Object.keys(object)
+
+
+
