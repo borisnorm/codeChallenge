@@ -1,0 +1,8 @@
+1. One of them was asked X to the Y, implement the power function
+2. Looking to solve it and looking for how to test it, what unqiue cases
+will you have to test for like positive and negative numbers
+
+
+
+
+
