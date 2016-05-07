@@ -1,0 +1,4 @@
+1. Ask a technical question about their stack and why they use that type 
+of things
+
+

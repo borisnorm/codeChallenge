@@ -1,0 +1,5 @@
+1. Make sure to have alot of check cases looking for things like undefined 
+2. Make sure the errors returned are unique
+
+
+
