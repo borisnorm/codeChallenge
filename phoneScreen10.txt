@@ -1,13 +1,10 @@
-1. Zocdoc (medium/difficult)
-
+1. Zodoc
 Given an array of n integers where n > 1, nums, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i]. Now do this in linear time without using division.
 
 2. Groupon (medium)
-
 Printers printing string messages for fortune cookies call an API and try to print a string message randomly. How would you implement this API and keep the responses random? Now what if you wanted a weighted response? (Eg. Given 3 string messages, you want the API to return messages 1, 2 and 3 in the ratio 1:2:5). How would you optimize if the API is being invoked repeatedly?
 
 3. LinkedIn (easy)
-
 Given two nodes of a tree, write a method to return the deepest (ie lowest) common ancestor of those nodes. Nodes contain parent-pointers.
 
 4. Tripadvisor (easy)
