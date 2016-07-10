@@ -1,0 +1,23 @@
+#See if matrix contains a particular word
+
+#DFS but custom implementation
+
+def getNeighbors(x, y, matrix):
+  neighbors = []
+  for i in range(-1, 2):
+    for j in range(-1, 2):
+      neighbors.append(matrix[x][y])
+  return neighbors
+
+      
+
+
+def boggle(word, matrix):
+
+
+
+
+  return
+
+
+

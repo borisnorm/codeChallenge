@@ -1,0 +1,25 @@
+1. Solve the Challenge List (prelim check)
+2. Solve the Other hard questions from the Reddit List (prelim Check)
+3. Solve the g4g questions, all of the top 5 most common problems 
+  -The DP problems should be hard
+4. Solve the Phone Screen Problems 
+5. Solve Interview problems in the folder 
+
+*Python based questions
+
+*Practice design questions, focus on database comparisons and etc
+*Look up sorting logic and what are the difference for each
+
+*Practice on leetCode, every day will applying for companies
+
+
+
+
+
+
+
+
+
+
+
+
