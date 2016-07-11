@@ -48,3 +48,76 @@
 	#Missed the edge case of if node exists and other is None, then value cast eror
 	#method sig, pay attention to non versus not none
 
+242 -
+  a. i did not do range(len())
+
+171 - 
+  #I need to do the string.ascii_uppercase
+  #If you design something to scale, please handle the easier case
+  #no colon on the forloop
+  #i was taking a len() when i meant to use length
+  #I misunderstof, the the alg, keep on summing up multiples of 26 to solve thingsS
+    #Loop through everything to solve the problem
+    #remeber the index + 1 is important
+    #coercing to unicode - need string or buffer error
+    #the error was here letterValue = alphabet[s[i]] + 1, i had s[i] + 1 
+      #No other thing to solve
+      #DONT need to correct letter value because i already adjusted the alphabet
+
+  #I mis understood, this is actually a base conversion question
+  #I need to think about the indicies in the file 
+  #I am misudnerstanding the order of operations i
+  #Make sure i am refering the right lookups
+
+169 - Keep track of ceiling element or not  - check this assumption
+  ceil wrap
+  #PAY attention to greater than, majority element
+
+350 i
+  -I imported defaultidict but did not use it 
+
+260. 
+  -i did while something < something, but one of those something was a node pointer, not value
+  -Missed the case where the head was none, or the list has a single value
+  -Did not pass the test case
+  -I need to know what variables i need before the process
+  #FUCK SWITCH THE POINTERS
+
+#326, hold forgot the object solution class
+  #My ALG was just wrong - it ROUNDED, to the answer, 1.666 == 1, when that should not be true
+  #initalize it as a float - no cast the input param as  a float
+
+231 - 
+  #Non memeory efficent, need to take the square root,
+  #or bit shift left
+  #I missed the case where 1 is the power of two
+    #Check the early case if n == 0:
+      return True
+  #I did not increase the counter, i need to be much more careful
+  #n need to be saved
+  check if it equals 1, or 0
+  #caught myself the variable references were off
+
+
+
+191.
+  #the variable n does not change if you dont save the shift 
+  #i did not increase the counter, by that specific amount
+  #the alg is wrong check cases are two, 0 or 1
+  #i should be shifting right, to find the target
+  #i did Not increment the counter, i should always walk through the logic
+
+
+70. 
+  #My indexing was incorrect for the staircliming
+    for i in range(3, n + 1): #the target should be n + 1 if you want to return the n, value start with 0 at 0
+        memo[i] = memo[i-1] + memo[i-2]
+    return memo[n]
+
+121.
+  #Did not test for null input case 
+
+
+
+
+
