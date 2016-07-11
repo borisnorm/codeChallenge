@@ -7,6 +7,7 @@ Printers printing string messages for fortune cookies call an API and try to pri
 3. LinkedIn (easy)
 Given two nodes of a tree, write a method to return the deepest (ie lowest) common ancestor of those nodes. Nodes contain parent-pointers.
 
+(I have n^2 soltuion, should be a lin time one
 4. Tripadvisor (easy)
 
 A Binary tree is balanced if for every node, heights of left and right subtrees differ by no more than 1. An empty tree is balanced. How would you write a program to check if a tree is balanced?
@@ -15,6 +16,7 @@ A Binary tree is balanced if for every node, heights of left and right subtrees 
 
 Find the first non-duplicate item in an array of strings (in linear time).
 
+(There is probably a cleaner way to do this)
 6. Qualtrics (medium)
 
 Given a 2D array as input and a start point as well as an end point, output ‘True’ if there exists a path from the start point to end point that is decreasing along the way, otherwise print ‘False’:
@@ -29,6 +31,7 @@ So in this case start (0,0) and end (2,2) would return true since this path exis
 
 You can move in any of four directions (left/right/up/down).
 
+(I dont know how to DP this)
 7. Snapchat (difficult)
 
 Consider a scenario where a frog wants cross a river. The river is represented by a 1D array of 0s and 1s where a 0 represents water and a 1 represents a rock. This frog cannot swim but it can jump from stone to stone. In addition there are other constraints on how the frog moves:
@@ -38,12 +41,14 @@ Frog can jump one more than his previous jump
 Frog can jump one less than his previous jump
 Now, given a river (1d array), can a frog cross the river without drowning? The frog cannot move a negative distance (ie it cannot go from right to left).
 
+(This is lang specifc question)
 8. Zenefits (easy/medium)
 
 a. Given a list of numbers represented as a1/b1, a2/b2 return sum in the reduced form a/b.
 
 b. Find the maximum difference between two elements of an array such that larger element appears after the smaller number.
 
+(This is hard and needs more work from me)
 9. Uber (difficult)
 
 Implement a function that makes 10 http requests in parallel, returning the responses in the order in which the urls are defined

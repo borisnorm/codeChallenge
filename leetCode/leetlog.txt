@@ -1,0 +1,14 @@
+373. Memory limit exceeded - i need to take adv of the sortedness
+372 - Not sure how to solve
+
+344 - Check
+292 - Nim Game Math Trick
+371 - cant solve  
+258 - cant solve
+104 - Check
+226 - difficulty
+
+
+
+
+

@@ -1,0 +1,50 @@
+373.
+	a. Indentation is off
+	b. i used num1 instead of nums1
+	c. int object is not iterable heappush(h, (sum(val1, val2), (val1, val2)))
+		#ERROR is i cannot do sum on a tuple, becaues its NOT iterable 
+	d. parenthesis errors 
+	e. Input was wrong returned the value, not just the array, not just [1]
+		@I need to get these helper functions correct
+
+	f. I need to handle the edge cases of null arrays
+		It is popping nothing in the heap
+
+	g. watch out for overpulling the heap
+		if len(heap) == 0:
+			return solution
+
+	h. Memory limited exceded
+		*if this is sorted, i need to use this some how and not sure how
+
+292.
+	a. indentation
+	b. canWinNUm is not defined - do i do soluiton.method?
+		b. this a class method so use self.
+		c. helper function can be defined externally
+		d. max recursion depth exceeded
+
+226 - Invert need a helper function to return the original root of the tree
+	#being that specific is necessary
+	#This is the helper function to return the root
+	*Check to make sure it is returning what you want
+	
+283 - Check edge cases where there is nothng you are looking for
+	#In the while loop i need to check if it has gone out of bounds
+	#that is the cleanest way probs
+		#dont return anything? not even nums
+	
+	#I was actually WRONG about the logic, how to defeat the sanwhich
+	#have 2 pointers that always advance?
+	#ALSO HAVE RIGHT SEARCH FOR NON zero one and swap
+		#the RIGHt looks for a nonzero number
+			#Return statement is out of place here
+			i returns immedaitely
+
+	#I messed this up - maintaining the Relative order is key, no swapping
+		#implement a shifter function to execute
+
+100 - same tree need to add a check case
+	#Missed the edge case of if node exists and other is None, then value cast eror
+	#method sig, pay attention to non versus not none
+
